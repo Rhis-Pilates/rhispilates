@@ -1,70 +1,161 @@
-
-
-/* style="background-color: #F6A4C8;" */
-
-.title{
-    height: 80vh;
-    margin-bottom: 50px;
-}
-
-.navbar{
-    background-color: transparent !important;
-    /* padding:  20px 15%; */
-}
-
-
-/* Hero */
-
-
-.hero{
-    width: 100vw;
-    height: 80vh;
-    object-fit: cover;
-    top: 0;
-    position: absolute;
-}
-
-.bioPic{
-    border-radius: 20%;
-    width: 80%;
-}
-
-.locations{
-    background-color: #F6A4C8;
-    padding-bottom: 50px;
-
-}
-
-.btn-local{
-    background-color: purple;
-    color: white;
-}
-
-
-.btn-local2{
-    background-color: white;
-    border-color: purple;
-    color: purple;
-}
-.btn:hover{
-    background-color: pink;
-}
-
-.card{
-    margin:15px 0;
-    
-}
-
-.lastPic{
-    width: 100%;
-}
-
-footer{
-    background-color: #F6A4C8;
-    margin: 0 0 -50px 0;
-}
-
 /* font-family: 'Bacasime Antique', serif;
 font-family: 'Noto Serif', serif;
 font-family: 'Sorts Mill Goudy', serif;
 font-family: 'Ysabeau SC', sans-serif; */
+/* style="background-color: #F6A4C8;" */
+
+.title {
+  height: 80vh;
+  margin-bottom: 50px;
+  font-family: "Bacasime Antique";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: transparent !important;
+  /* padding:  20px 15%; */
+}
+.navbar-brand {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0 0 4px purple;
+}
+
+.nav-link {
+  color: white;
+  text-shadow: 0 0 4px purple;
+}
+
+/* Hero */
+
+.hero {
+  width: 100vw;
+  height: 80vh;
+  object-fit: cover;
+  top: 0;
+  position: absolute;
+}
+
+/* About */
+
+.bioPic {
+  padding-bottom: 20px;
+}
+.about {
+  text-align: center;
+  /* font-family: "Noto Serif"; */
+  font-family: "Sorts Mill Goudy";
+  /* font-family: "Ysabeau SC"; */
+
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+
+.ImRhi {
+  color: purple;
+  font-family: "Bacasime Antique";
+}
+
+.bioPic {
+  border-radius: 20%;
+  width: 80%;
+}
+
+/* Locations */
+
+.locations {
+  
+    background-color: #f6a4c8;
+  padding-top: 25px;
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+.locationTitle{
+    font-family: "Bacasime Antique";
+    color: white;
+    text-shadow: 0 0 4px purple;
+    font-weight: bold;
+}
+.locationSubhead{
+    font-family: "Bacasime Antique";
+    color: purple;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+
+.card{
+    font-family: "Sorts Mill Goudy";
+    text-align: center;
+}
+
+.card-title{
+        font-weight: bold;
+
+}
+.address{
+    padding-bottom: 20px;
+}
+
+.CTA{
+    font-family: "Sorts Mill Goudy";
+    color: purple;
+    padding-top: 25px;
+    line-height: 1.5;
+}
+
+.btn-local {
+  background-color: purple;
+  color: white;
+}
+
+.btn-local2 {
+  background-color: white;
+  border-color: purple;
+  color: purple;
+}
+.btn:hover {
+  background-color: pink;
+}
+
+.card {
+  margin: 15px 0;
+}
+
+/* socials */
+.social{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    font-family: "Sorts Mill Goudy";
+    color: #F6A4C8;
+    font-weight: bold;
+}
+
+.lastPic {
+  width: 100%;
+  border-radius: 5%;
+margin-bottom: 25px;
+}
+
+.insta{
+padding-left: 5%;    
+}
+
+.close2 {
+    font-family: "Bacasime Antique";
+    color: purple; 
+}
+
+footer {
+  background-color: #f6a4c8;
+  margin: 0 0 -50px 0;
+  font-family: "Sorts Mill Goudy";
+padding-top: 15px;
+padding-bottom: 1px;
+text-align: center;
+color: white;
+}
